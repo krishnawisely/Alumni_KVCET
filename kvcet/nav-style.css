@@ -1,0 +1,64 @@
+
+            body{
+                background-image: linear-gradient(rgb(212, 205, 205),rgb(218, 212, 212));
+            }
+            .nav-header{
+                
+                background-image:linear-gradient(rgb(214, 205, 205),rgb(83, 75, 75));
+                position: absolute;
+                top:0;
+                left: 0;
+                width: 100%;
+                /*background-color: rgb(68, 64, 64);*/
+                box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5);
+                /*height: 100px;*/                
+            }
+            .nav-header #nav-header-name{
+                color:rgb(46, 33, 33);
+                text-align: center;
+                font-size: 30px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                padding: 30px;
+            }
+            /*.nav-menu{
+                background-color: rgb(68, 68, 68);
+                overflow: hidden;
+                 
+            }*/
+            .nav-menu div{
+                float: left;
+            }
+            .nav-menu div a{
+                color:rgb(233, 233, 233);
+                font-size:20px;
+                text-decoration: none;
+                padding: 10px;
+                font-family: cursive;
+                display: block;
+            }
+            .nav-menu div:hover{
+                background-color: rgb(53, 49, 49);
+                box-shadow:0px 10px 10px 0px rgba(0,0,0,0.5);
+            }
+           .sub-nav{
+               position: absolute;
+               background-color: rgb(68, 64, 64);
+               display: none;
+           }
+           .sub-nav div{
+               float:none;
+               
+           }
+           .sub-nav div a{
+               text-align: center;
+           }
+           .sub-nav div:hover{
+                background-color: rgb(43, 40, 40);
+                box-shadow:0px 10px 10px 0px rgba(0,0,0,0.5);
+           }
+           .nav-menu div:hover .sub-nav{
+               display: block;
+           }
+           .ex{
+               color:rgb(19, 78, 241);
+           }
