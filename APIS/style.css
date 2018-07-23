@@ -1,0 +1,70 @@
+body{
+    background-color:gray;
+}
+.nav{
+    position:absolute;
+    overflow:hidden;
+    box-shadow:0px 12px 12px 0px rgba(0,0,0,0.5);
+    margin:0;
+    padding:0;
+    width:100%;
+    left:0;
+    top:0;
+}
+.nav div{
+   
+    padding:10px 20px;
+    
+    text-align:center;
+    
+    float:right;
+
+    margin-top:30px;
+}
+
+.nav #nav1:hover{
+    /*background-color:rgb(148, 24, 24);*/
+    
+    border-radius:50%;
+    background-color:rgb(168, 39, 39);
+    box-shadow:0px 12px 12px 0px rgba(0,0,0,0.5);
+}
+.nav a{
+    
+    text-decoration:none;
+    color:white;
+    font-family:cursive;
+}
+.active{
+    border-radius:50%;
+    background-color:rgb(168, 39, 39);
+    box-shadow:0px 12px 12px 0px rgba(0,0,0,0.5);
+}
+.mystyle_button{
+    color:white;
+    background-color:orange;
+    border-color:black;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+   
+}
+.mystyle_button:hover{
+    animation-name:button;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes button{
+    50%{
+        border-color:black;
+        
+    }
+    50%{
+        border:7px;
+    }
+}
+
+
+#a{
+    color:rgb(83, 80, 80);
+}

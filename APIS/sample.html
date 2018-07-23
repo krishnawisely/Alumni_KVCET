@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        DOB<input type="date" name="dob" id="dob">
+        Age<input type="number" name="age" id="age" value="">
+        <br><p id="name"></p>
+       
+        <script>
+           age.addEventListener('mouseover',function()
+            {
+                var today_date=new Date();
+                var dob=document.getElementById('dob').value;
+                var dob_date=new Date(dob);
+                var age=today_date.getFullYear() - dob_date.getFullYear();
+                document.getElementById('name').innerHTML=age;
+                document.getElementById('age').value=age;
+                
+
+            });
+        </script>
+
+    </body>
+</html>
